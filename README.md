@@ -124,7 +124,7 @@ these steps:
 
     There is a method to make the request and get the token for you. Pass
     all the params received from the previous call (shop, code, timestamp,
-    signature) as a dictionary and the method will verify
+    signature and all the other custom parameters that you had passed to the redirect_uri in the Step 3) as a dictionary and   the method will verify
     the params, extract the temp code and then request your token:
 
     ```python
